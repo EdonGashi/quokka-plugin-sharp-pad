@@ -1,0 +1,19 @@
+{
+  "name": "quokka-plugin-sharp-pad",
+  "version": "0.1.0",
+  "description": "Adds dump() support for quokka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quokka",
+    "sharp-pad",
+    "plugin"
+  ],
+  "author": "Edon Gashi",
+  "license": "MIT",
+  "dependencies": {
+    "stackman": "^3.0.1"
+  }
+}
