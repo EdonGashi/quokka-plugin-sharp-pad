@@ -1,7 +1,7 @@
 module.exports = {
 
   before: config => {
-    const dump = require('./dump')
+    const dump = require('sharp-pad-dump')
     global.dump = dump
     dump.source = false
     if (config && config['sharp-pad'] && config['sharp-pad'].port) {
