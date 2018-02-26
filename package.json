@@ -1,6 +1,6 @@
 {
   "name": "quokka-plugin-sharp-pad",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Adds dump() support for quokka",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,6 @@
     "url": "https://github.com/EdonGashi/quokka-plugin-sharp-pad.git"
   },
   "dependencies": {
-    "sharp-pad-dump": "~0"
+    "sharp-pad-dump": ">=0.2"
   }
 }
