@@ -1,6 +1,6 @@
 {
   "name": "quokka-plugin-sharp-pad",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Adds dump() support for quokka",
   "main": "index.js",
   "scripts": {

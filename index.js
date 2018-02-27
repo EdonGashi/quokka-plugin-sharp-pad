@@ -2,8 +2,8 @@ module.exports = {
 
   before: config => {
     const dump = require('sharp-pad-dump')
-    dump.hook('$', true)
     global.$ = '$'
+    dump.hook('$', true)
     global.dump = dump
     dump.source = function (source, value, accessor) {
       if (!source || source.length > 30) {
